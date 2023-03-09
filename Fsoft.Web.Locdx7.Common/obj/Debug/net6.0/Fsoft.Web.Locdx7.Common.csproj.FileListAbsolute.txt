@@ -1,0 +1,14 @@
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.deps.json
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.pdb
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.csproj.AssemblyReference.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.AssemblyInfoInputs.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.AssemblyInfo.cs
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.csproj.CoreCompileInputs.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\refint\Fsoft.Web.Locdx7.Common.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.pdb
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\ref\Fsoft.Web.Locdx7.Common.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.runtimeconfig.json
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.genruntimeconfig.cache

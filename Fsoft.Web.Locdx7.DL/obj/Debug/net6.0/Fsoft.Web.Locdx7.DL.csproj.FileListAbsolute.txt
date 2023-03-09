@@ -1,0 +1,17 @@
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\bin\Debug\net6.0\Fsoft.Web.Locdx7.DL.deps.json
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\bin\Debug\net6.0\Fsoft.Web.Locdx7.DL.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\bin\Debug\net6.0\Fsoft.Web.Locdx7.DL.pdb
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.csproj.AssemblyReference.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.AssemblyInfoInputs.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.AssemblyInfo.cs
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.csproj.CoreCompileInputs.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\refint\Fsoft.Web.Locdx7.DL.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.pdb
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\ref\Fsoft.Web.Locdx7.DL.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\bin\Debug\net6.0\Fsoft.Web.Locdx7.DL.runtimeconfig.json
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.dll
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.pdb
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.csproj.CopyComplete
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.DL\obj\Debug\net6.0\Fsoft.Web.Locdx7.DL.genruntimeconfig.cache
