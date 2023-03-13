@@ -22,11 +22,11 @@ namespace Fsoft.Web.Locdx7.DL
 
         public Task<User> GetUserById(int id);
 
-        public Task InsertUser(User product);
+        public Task<int> InsertUser(User product);
 
-        public Task UpdateUser(int id, User product);
+        public Task<int> UpdateUser(int id, User product);
 
-        public Task DeleteUser(int id);
+        public Task<int> DeleteUser(int id);
         #endregion
     }
 }

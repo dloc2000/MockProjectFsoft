@@ -2,6 +2,9 @@
 using Fsoft.Web.Locdx7.BL;
 using Fsoft.Web.Locdx7.Common.Paging;
 using Microsoft.AspNetCore.Mvc;
+using Fsoft.Web.Locdx7.Common.Enums;
+using Fsoft.Web.Locdx7.Common.Error;
+using Fsoft.Web.Locdx7.Common.Resources;
 
 namespace Fsoft.Web.Locdx7.API.Controllers
 {
@@ -10,9 +13,12 @@ namespace Fsoft.Web.Locdx7.API.Controllers
     public class ProductController : ControllerBase
     {
         private IProductBL _productBL;
-        public ProductController(IProductBL ProductBL)
+        private readonly ILogger<ProductController> _logger;
+
+        public ProductController(IProductBL ProductBL, ILogger<ProductController> logger)
         {
             _productBL = ProductBL;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -21,14 +27,25 @@ namespace Fsoft.Web.Locdx7.API.Controllers
         {
             try
             {
+                _logger.LogInformation("Start logging GetProductsPaging");
+
                 var products = await _productBL.GetProductsPaging(filter);
 
-                return Ok(new { products, filter });
+                _logger.LogInformation($"have {products.Count} product");
+
+                return StatusCode(StatusCodes.Status200OK ,new { products, filter });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                _logger.LogError(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, new ErrorResult(
+                    FsoftErrorCode.Exception,
+                    FsoftResource.DevMsg_Exception,
+                    FsoftResource.UserMsg_Exception,
+                    FsoftResource.MoreInfo_Exception,
+                    HttpContext.TraceIdentifier)
+                );
             }
         }
         #region CRUD

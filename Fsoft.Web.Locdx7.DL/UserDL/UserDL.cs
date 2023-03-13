@@ -37,10 +37,7 @@ namespace Fsoft.Web.Locdx7.DL
             {
                 return "Not exits User";
             }
-            //if(user.VerifiyAt == null)
-            //{
-            //    return "Not verified!";
-            //}
+
             if(user.Password != userRequest.Password)
             {
                 return "Password incorrect";
@@ -75,7 +72,7 @@ namespace Fsoft.Web.Locdx7.DL
             return await _context.Users.ToListAsync();
         }
 
-        public async Task DeleteUser(int id)
+        public async Task<int> DeleteUser(int id)
         {
             User user = await _context.Users.FindAsync(id);
 
@@ -83,7 +80,9 @@ namespace Fsoft.Web.Locdx7.DL
             {
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
+                return id;
             }
+            return 0;
         }
 
         public async Task<User> GetUserById(int id)
@@ -92,7 +91,7 @@ namespace Fsoft.Web.Locdx7.DL
         }
 
 
-        public async Task InsertUser(User user)
+        public async Task<int> InsertUser(User user)
         {
 
             if (_context.Users.Any(u => u.Username == user.Username))
@@ -106,9 +105,11 @@ namespace Fsoft.Web.Locdx7.DL
 
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
+
+            return user.UserId;
         }
 
-        public async Task UpdateUser(int id, User userUpdate)
+        public async Task<int> UpdateUser(int id, User userUpdate)
         {
             var user = await _context.Users.FindAsync(id);
 
@@ -118,7 +119,10 @@ namespace Fsoft.Web.Locdx7.DL
                 // Update 1 object ,ko cần update từng thuộc tính
                 _context.Entry(user).CurrentValues.SetValues(userUpdate);
                 await _context.SaveChangesAsync();
+                return id;
             }
+
+            return 0;
         }
         #endregion
         

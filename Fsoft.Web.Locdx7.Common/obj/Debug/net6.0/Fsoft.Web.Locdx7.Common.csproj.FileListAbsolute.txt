@@ -12,3 +12,5 @@ C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft
 C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\ref\Fsoft.Web.Locdx7.Common.dll
 C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\bin\Debug\net6.0\Fsoft.Web.Locdx7.Common.runtimeconfig.json
 C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.genruntimeconfig.cache
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.Resources.FsoftResource.resources
+C:\Users\Adminstrator\Desktop\FSoft\Mock_Project\Mock_Project_Fsoft_Locdx7\Fsoft.Web.Locdx7.Common\obj\Debug\net6.0\Fsoft.Web.Locdx7.Common.csproj.GenerateResource.cache

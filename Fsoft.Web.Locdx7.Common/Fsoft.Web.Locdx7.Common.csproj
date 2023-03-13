@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MailKit" Version="3.6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
@@ -19,6 +15,21 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="MimeKit" Version="3.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\FsoftResource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>FsoftResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\FsoftResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FsoftResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

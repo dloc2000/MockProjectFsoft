@@ -94,6 +94,10 @@ app.UseAuthentication();
 app.UseStaticFiles();
 app.UseSession();
 
+// Middleware handle error
+app.UseMiddleware<ExceptionMiddleware>();
+//app.ConfigureCustomExceptionMiddleware();
+
 // Đưa middlware vào pipeline
 app.UseMiddleware<CheckAcessMiddleware>();
 //app.UseAuthorization();

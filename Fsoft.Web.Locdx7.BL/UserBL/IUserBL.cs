@@ -1,4 +1,5 @@
-﻿using Fsoft.Web.Locdx7.Common.Entities;
+﻿using Fsoft.Web.Locdx7.Common.Dto;
+using Fsoft.Web.Locdx7.Common.Entities;
 using Fsoft.Web.Locdx7.Common.Paging;
 using System;
 using System.Collections.Generic;
@@ -18,15 +19,15 @@ namespace Fsoft.Web.Locdx7.BL
         public Task<List<User>> GetUsersPaging(PagingFilter filter);
 
         #region CRUD
-        public Task<List<User>> GetUsers();
+        public Task<ServiceResponse> GetUsers();
 
-        public Task<User> GetUserById(int id);
+        public Task<ServiceResponse> GetUserById(int id);
 
-        public Task InsertUser(User user);
+        public Task<ServiceResponse> InsertUser(User user);
 
-        public Task UpdateUser(int id, User user);
+        public Task<ServiceResponse> UpdateUser(int id, User user);
 
-        public Task DeleteUser(int id);
+        public Task<ServiceResponse> DeleteUser(int id);
         #endregion
     }
 }
